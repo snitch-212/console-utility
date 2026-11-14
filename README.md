@@ -164,7 +164,7 @@ $ ./run.sh -p bash -V 5.1-6ubuntu1 -r file://$PWD/tests/data/Packages
 Прямые зависимости bash 5.1-6ubuntu1 (4):
   libc6 (>= 2.34)
   libtinfo6 (>= 6)
-  base-files (>= 2.1.0)
+  base-files (>= 2.1.12)
   debianutils (>= 2.15)
 
 $ ./run.sh -p demo-editor -V 1.2-1 -r file://$PWD/tests/data/Packages
