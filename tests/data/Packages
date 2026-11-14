@@ -1,0 +1,40 @@
+Package: bash
+Architecture: amd64
+Version: 5.1-6ubuntu1
+Priority: required
+Pre-Depends: libc6 (>= 2.34), libtinfo6 (>= 6)
+Depends: base-files (>= 2.1.0), debianutils (>= 2.15)
+Recommends: bash-completion (>= 20060301-0)
+Description: учебная запись в формате индекса apt
+ Вторая строка описания (строка продолжения).
+
+Package: bash-completion
+Architecture: all
+Version: 1:2.11-5ubuntu1
+Depends: bash (>= 4.1)
+Description: запись-двойник: имя начинается с «bash»
+
+Package: bash
+Architecture: amd64
+Version: 5.1-6ubuntu1.1
+Pre-Depends: libc6 (>= 2.34), libtinfo6 (>= 6)
+Depends: base-files (>= 2.1.0), debianutils (>= 2.15)
+Description: вторая версия того же пакета
+
+Package: demo-editor
+Architecture: amd64
+Version: 1.2-1
+Depends: libc6 (>= 2.34), python3:any,
+ mail-transport-agent | postfix (>= 3.0) | exim4
+Description: альтернативы через «|», архитектура и строка продолжения
+
+Package: demo-lib
+Architecture: amd64
+Version: 1.0-1
+Description: пакет без зависимостей
+
+Package: demo-lib
+Architecture: amd64
+Version: 2.0-1
+Depends: libc6 (>= 2.34)
+Description: другая версия с зависимостью
